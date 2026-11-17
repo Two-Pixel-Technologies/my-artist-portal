@@ -1,0 +1,13 @@
+{
+  "name": "myartist-portal",
+  "private": true,
+  "description": "myartist.in: artist discovery portal (Next.js web + Fastify/SQLite API)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix web install",
+    "dev:api": "npm --prefix server run dev",
+    "dev:web": "npm --prefix web run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix web run build"
+  }
+}
